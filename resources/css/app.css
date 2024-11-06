@@ -5,3 +5,13 @@
 [x-cloak] {
     display: none;
 }
+
+/* Untuk memastikan video background memiliki transisi yang halus */
+video {
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Untuk dark mode */
+.dark video {
+    opacity: 0.8;
+}
